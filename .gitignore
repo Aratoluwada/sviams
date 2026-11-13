@@ -1,0 +1,16 @@
+# Local database and backups live in instance/ and must not be committed
+instance/*
+!instance/.gitkeep
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+
+# OS
+.DS_Store
